@@ -1,0 +1,13 @@
+# Vectors
+contextily
+geopandas>=1.2
+
+# Sertit open source libs
+eosets
+eoreader[stac]
+
+# Workaround for CNES JupyterHub
+xarray_spatial<0.10
+
+# Workaround for asyncio in notebooks
+nest_asyncio2>=1.7.4
